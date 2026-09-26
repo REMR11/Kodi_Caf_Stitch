@@ -1,0 +1,14 @@
+---
+description: Estándares generales del repo CafIA / Kodi_Caf_Stitch
+alwaysApply: true
+---
+
+# CafIA — reglas generales
+
+- Sigue [AGENTS.md](../../AGENTS.md) como fuente principal de contexto del proyecto.
+- Gestor de paquetes: **pnpm** únicamente (`pnpm install`, `pnpm dev`, `pnpm build`).
+- Stack: Vite + **vanilla JavaScript** (ES modules); no introducir React/Vue sin petición explícita.
+- Textos de producto y UI en **español**; commits en **Conventional Commits**.
+- Cambios de UI o portado desde Stitch: lee [docs/design-system.md](../../docs/design-system.md) y [docs/stitch-porting.md](../../docs/stitch-porting.md); en Cursor, usa la skill **cafia-stitch-design**.
+- Mantén diffs pequeños; reutiliza `sidebar.js` y `app-header.js`; no dupliques layout del mock.
+- No commitear secretos; no editar `.cursor/plans/` salvo que el usuario lo pida.

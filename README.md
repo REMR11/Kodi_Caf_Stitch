@@ -15,6 +15,18 @@ Frontend web de **CafIA** (*Clima & Riesgo*), orientado a productores cafetalero
 
 En la práctica: puedes **iniciar sesión**, ver el **layout principal** (sidebar + header) y **navegar** entre secciones; el área central muestra un aviso de “vista por implementar”, no el diseño completo de Stitch.
 
+## Guía para agentes de IA
+
+Instrucciones portables (Cursor, Copilot, Codex, Windsurf, Aider, etc.):
+
+| Archivo | Para qué |
+|---------|----------|
+| [AGENTS.md](AGENTS.md) | Contexto del repo, comandos, arquitectura, convenciones |
+| [docs/design-system.md](docs/design-system.md) | Tokens, tipografía y patrones UI CafIA |
+| [docs/stitch-porting.md](docs/stitch-porting.md) | Cómo portar pantallas desde Google Stitch |
+
+En **Cursor**: regla [`.cursor/rules/cafia-general.mdc`](.cursor/rules/cafia-general.mdc) y skill [`.cursor/skills/cafia-stitch-design/`](.cursor/skills/cafia-stitch-design/SKILL.md) apuntan a esa documentación.
+
 ## Stack técnico
 
 - **Vite** — dev server y build
