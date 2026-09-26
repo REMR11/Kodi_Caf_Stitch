@@ -1,0 +1,75 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-secondary-fixed-dim: #d4ccbf;
+  --color-on-surface: #2e3230;
+  --color-on-primary-fixed: #002110;
+  --color-error: #b83230;
+  --color-primary-fixed: #c8e8d0;
+  --color-tertiary-fixed: #f8e0a8;
+  --color-on-tertiary-fixed-variant: #554020;
+  --color-secondary-fixed: #f0e8db;
+  --color-on-secondary: #ffffff;
+  --color-on-tertiary-container: #554020;
+  --color-surface: #faf6f0;
+  --color-background: #faf6f0;
+  --color-on-primary: #ffffff;
+  --color-primary: #4a7c59;
+  --color-surface-container-highest: #e4e0d8;
+  --color-on-tertiary: #ffffff;
+  --color-surface-container: #f0ece4;
+  --color-outline: #74796e;
+  --color-on-tertiary-fixed: #221a05;
+  --color-surface-bright: #faf6f0;
+  --color-on-error: #ffffff;
+  --color-on-background: #2e3230;
+  --color-tertiary-fixed-dim: #dcc48e;
+  --color-secondary-container: #f0e8db;
+  --color-surface-container-low: #f5f1ea;
+  --color-on-primary-fixed-variant: #2a6038;
+  --color-primary-fixed-dim: #8ecf9e;
+  --color-inverse-primary: #8ecf9e;
+  --color-inverse-surface: #2e3230;
+  --color-surface-dim: #dbd7cf;
+  --color-surface-container-lowest: #ffffff;
+  --color-on-error-container: #690005;
+  --color-surface-tint: #4a7c59;
+  --color-secondary: #6b6358;
+  --color-surface-variant: #e4e0d8;
+  --color-tertiary: #705c30;
+  --color-on-secondary-container: #5e5548;
+  --color-on-secondary-fixed-variant: #4a4538;
+  --color-on-primary-container: #d8f0de;
+  --color-tertiary-container: #c4a66a;
+  --color-on-secondary-fixed: #1e1a13;
+  --color-outline-variant: #c4c8bc;
+  --color-surface-container-high: #eae6de;
+  --color-primary-container: #78a886;
+  --color-error-container: #ffdad8;
+  --color-on-surface-variant: #4a4e4a;
+  --color-inverse-on-surface: #f5f0e8;
+
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+
+  --font-family-headline: 'Literata', ui-serif, serif;
+  --font-family-display: 'Literata', ui-serif, serif;
+  --font-family-body: 'Nunito Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-family-label: 'Nunito Sans', ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    overscroll-behavior: none;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
