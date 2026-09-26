@@ -71,3 +71,22 @@ Fuente de tokens en código: `src/styles/tailwind.css` (`@theme`). No inventes c
 ## Progressive disclosure
 
 Para tareas grandes, lee solo lo necesario: este archivo → design-system / stitch-porting → archivos `src/` afectados.
+
+## Reglas por editor
+
+Este archivo (`AGENTS.md`) es la **fuente canónica** de contexto. Cada editor tiene un archivo delgado equivalente a las *Project Rules* de Cursor:
+
+| Editor | Mecanismo | Archivo en este repo |
+|--------|-----------|----------------------|
+| **Cursor** | Project Rules (`.mdc`) | `.cursor/rules/cafia-general.mdc` |
+| **Kiro** | [Steering](https://kiro.dev/docs/steering/) | `.kiro/steering/cafia-general.md` (`inclusion: always`) |
+| **VS Code + Copilot** | [Custom instructions](https://code.visualstudio.com/docs/agent-customization/custom-instructions) | `.github/copilot-instructions.md` |
+
+Para UI y portado desde Stitch:
+
+| Editor | Archivo |
+|--------|---------|
+| Cursor | `.cursor/skills/cafia-stitch-design/SKILL.md` |
+| Kiro | `.kiro/steering/cafia-stitch-ui.md` (`inclusion: auto`; también `#cafia-stitch-ui` en chat) |
+
+**Mantenimiento:** al cambiar reglas globales del proyecto, actualiza en sync `.cursor/rules/cafia-general.mdc`, `.kiro/steering/cafia-general.md` y `.github/copilot-instructions.md` (y este `AGENTS.md` si aplica al contenido extendido).

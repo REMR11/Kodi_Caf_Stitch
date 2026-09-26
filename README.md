@@ -24,8 +24,13 @@ Instrucciones portables (Cursor, Copilot, Codex, Windsurf, Aider, etc.):
 | [AGENTS.md](AGENTS.md) | Contexto del repo, comandos, arquitectura, convenciones |
 | [docs/design-system.md](docs/design-system.md) | Tokens, tipografía y patrones UI CafIA |
 | [docs/stitch-porting.md](docs/stitch-porting.md) | Cómo portar pantallas desde Google Stitch |
+| [`.cursor/rules/cafia-general.mdc`](.cursor/rules/cafia-general.mdc) | Reglas always-on en **Cursor** |
+| [`.cursor/skills/cafia-stitch-design/SKILL.md`](.cursor/skills/cafia-stitch-design/SKILL.md) | Skill UI/Stitch en Cursor |
+| [`.kiro/steering/cafia-general.md`](.kiro/steering/cafia-general.md) | Reglas always-on en **Kiro** (steering) |
+| [`.kiro/steering/cafia-stitch-ui.md`](.kiro/steering/cafia-stitch-ui.md) | Steering auto para UI/Stitch en Kiro |
+| [`.github/copilot-instructions.md`](.github/copilot-instructions.md) | Reglas always-on en **VS Code + Copilot** |
 
-En **Cursor**: regla [`.cursor/rules/cafia-general.mdc`](.cursor/rules/cafia-general.mdc) y skill [`.cursor/skills/cafia-stitch-design/`](.cursor/skills/cafia-stitch-design/SKILL.md) apuntan a esa documentación.
+**Equivalencia:** Cursor Rules ≈ Kiro Steering ≈ Copilot custom instructions; detalle en la sección [Reglas por editor](AGENTS.md#reglas-por-editor) de `AGENTS.md`.
 
 ## Stack técnico
 
