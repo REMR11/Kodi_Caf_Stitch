@@ -35,6 +35,21 @@ En **Cursor**: regla [`.cursor/rules/cafia-general.mdc`](.cursor/rules/cafia-gen
 - **Fuentes:** [Literata](https://fonts.google.com/specimen/Literata) (títulos), [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans) (cuerpo)
 - **Iconos:** [Material Symbols Outlined](https://fonts.google.com/icons)
 
+## GitHub: fork y colaboración (introducción)
+
+Si estás aprendiendo a programar y es tu primer contacto con GitHub, **no clones solo el repo y empieces a push** sin entender el flujo del curso.
+
+Un **fork** es una copia del proyecto en *tu* cuenta de GitHub. Sirve para practicar, proponer cambios con **Pull Requests** y no alterar el repositorio del equipo o del instructor. Es la forma habitual de contribuir cuando no tienes permiso de escritura directa.
+
+| Paso rápido | Acción |
+|-------------|--------|
+| 1 | En GitHub, botón **Fork** en el repo original |
+| 2 | **Clone** la URL de *tu* fork |
+| 3 | Rama nueva → commits → `git push` a tu fork |
+| 4 | Abre un **Pull Request** hacia el repo original |
+
+Guía completa para nivel junior (qué es, para qué sirve, paso a paso y FAQ): **[docs/github-fork.md](docs/github-fork.md)**.
+
 ## Cómo ejecutar
 
 Requisitos: **Node.js 18+** y **[pnpm](https://pnpm.io/installation)**.
