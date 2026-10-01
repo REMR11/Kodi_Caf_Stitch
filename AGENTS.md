@@ -1,4 +1,4 @@
-# AGENTS.md — Kodi_Caf_Stitch / CafIA
+# AGENTS.md — Kodi_Caf_Stitch / CafIA hola esto es un cambio en dev
 
 Instrucciones para agentes de codificación (Cursor, Copilot, Codex, Windsurf, Aider, etc.). Formato abierto: [agents.md](https://agents.md/).
 
